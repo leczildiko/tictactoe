@@ -10,9 +10,9 @@ import java.util.List;
 
 public class JdbcDao {
 
-    private static final String DATABASE_URL = "jdbc:mysql://sql11.freemysqlhosting.net:3306/sql11494994?useSSL=false";
-    private static final String DATABASE_USERNAME = "sql11494994";
-    private static final String DATABASE_PASSWORD = "fzT9fTRkmd";
+    private static final String DATABASE_URL = "";
+    private static final String DATABASE_USERNAME = "";
+    private static final String DATABASE_PASSWORD = "";
     private static final String INSERT_QUERY = "INSERT INTO game (start, winner, gamelength) VALUES (?, ?, ?)";
     private static final String SELECT_QUERY = "SELECT * FROM game";
 
